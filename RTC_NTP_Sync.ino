@@ -26,8 +26,8 @@ void DisplayTime() {
 #include "time.h"
 RTC_DS3231 rtc;
 //RTC_DS1307 rtc;
-const char* Timezone = "MET-1METDST,M3.5.0/01,M10.5.0/02"; // Europe
-//const char* Timezone = "GMT0BST,M3.5.0/01,M10.5.0/02";  // UK
+//const char* Timezone = "MET-1METDST,M3.5.0/01,M10.5.0/02"; // Europe
+const char* Timezone = "GMT0BST,M3.5.0/01,M10.5.0/02";  // UK
 const char* ssid = "yourSSID";
 const char* password = "yourPASSWORD";
 
